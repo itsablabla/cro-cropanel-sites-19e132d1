@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insurance form friction — warbyparker.com</title>
+<link rel="stylesheet" href="cro_system.css">
+</head>
+<body class="">
+<header>
+  <a class="logo-area" href="index.html" style="text-decoration:none">
+    <div class="logo-dot">W</div>
+    <div>
+      <div class="logo-text">warbyparker.com</div>
+      <div class="logo-sub">CRO Recommendations — August 2026</div>
+    </div>
+  </a>
+  <nav class="nav"><a href="index.html">Overview</a><a href="roadmap.html">Roadmap</a><a href="appendix.html">All findings</a><a href="methodology.html">Method</a></nav>
+</header>
+
+<div class="wrap">
+  <div class="finding-head">
+    <div class="badge-row">
+      <span class="rank-chip rank-high">5</span>
+      <span class="badge badge-high">High</span>
+      <span class="badge badge-effort">Homepage</span>
+      
+    </div>
+    <h1>Insurance form friction</h1>
+    <p class="thesis">The insurance benefits checker asks for first name, last name, date of birth, and zip code before any value exchange, creating unnecessary friction for a cold visitor.</p>
+  </div>
+  
+  <div class="section" style="padding-top:0;border-top:none">
+    <div class="split">
+      <div class="col">
+        <div class="label-bar label-current">CURRENT — 4-field form</div>
+        <div class="surface"><p class="eyebrow">Homepage</p><h1>A fresh dose of nostalgia</h1><p>Check your insurance benefits in seconds.</p><div class="field"><span class="field-label">First name</span><input type="text" placeholder="First name"></div><div class="field"><span class="field-label">Last name</span><input type="text" placeholder="Last name"></div><div class="field"><span class="field-label">Date of birth</span><input type="text" placeholder="MM/DD/YYYY"></div><div class="field"><span class="field-label">Zip code</span><input type="text" placeholder="Zip code"></div><div class="field"><span class="field-label">I am a dependent on this insurance policy</span><input type="checkbox"></div><span class="btn-primary">Check my benefits</span><div class="problem-callout"><strong>⚠ Form friction</strong>Asking for personal details before any value exchange creates unnecessary friction for a cold visitor.</div></div>
+        <div class="annotation"><strong>Problem</strong>The homepage insurance checker asks for first name, last name, date of birth, and zip code before any value exchange. This creates friction for a cold visitor who has no reason to trust the site with personal data yet. The form is above the fold and the primary CTA, so the friction is immediately visible. Requiring four fields before delivering any benefit increases abandonment and reduces conversion.</div>
+      </div>
+      <div class="divider"></div>
+      <div class="col">
+        <div class="label-bar label-recommended">RECOMMENDED — 1-field form</div>
+        <div class="surface"><p class="eyebrow">Homepage</p><h1>A fresh dose of nostalgia</h1><p>Check your insurance benefits in seconds.</p><div class="field"><span class="field-label">Zip code</span><input type="text" placeholder="Zip code"></div><span class="btn-primary">Check my benefits</span><p class="pill">We'll only use this to check your coverage.</p><div class="win-callout"><strong>✓ Reduced friction</strong>We only need your zip code to check your coverage. Your info stays private.</div></div>
+        <div class="annotation good"><strong>Fix</strong>Reduce the form to just the zip code, which is the minimum needed to check coverage. Add a trust layer with a privacy note and a reassurance that the data will only be used for the check. This lowers the barrier to entry and makes the value exchange clearer. The simplified form is faster to complete and reduces perceived risk.</div>
+      </div>
+    </div>
+  </div>
+  
+<div class="section">
+  <div class="eyebrow-label">Evidence</div>
+  <h2 class="section-title">What was actually observed </h2>
+  <p class="section-intro">Quoted directly from the live page at time of audit.</p>
+  <div class="agreement">✓ Independently flagged by 1 of 7 analysts: Form / Friction</div>
+  <ul class="evidence-list"><li>Form on homepage with labels: &#x27;First name&#x27;, &#x27;Last name&#x27;, &#x27;Date of birth&#x27;, &#x27;Zip code&#x27;, &#x27;I am a dependent on this insurance policy&#x27; and submit &#x27;Check my benefits&#x27;.</li></ul>
+</div>
+  
+<div class="section">
+  <div class="eyebrow-label">Business case</div>
+  <h2 class="section-title">Sized opportunity</h2>
+  <div class="tiles" style="grid-template-columns:repeat(3,1fr)">
+    <div class="tile">
+      <div class="tval">$396,720 – $1,983,600</div>
+      <div class="tlabel">estimated annual opportunity</div>
+      <div class="tnote">11,400,000 annual visits x 2.40% conversion x 1.0-5.0% relative lift x $145 order value</div>
+    </div>
+    <div class="tile">
+      <div class="tval">1.0–5.0%</div>
+      <div class="tlabel">Assumed relative lift band</div>
+      <div class="tnote">Bounded by severity. This is an assumption used to frame a
+        range, not a prediction.</div>
+    </div>
+    <div class="tile">
+      <div class="tval">Medium</div>
+      <div class="tlabel">Implementation effort</div>
+      <div class="tnote">2-5 days —
+        layout shifts, form field changes, new modules</div>
+    </div>
+  </div>
+  <div class="caveat" style="margin-top:18px">
+    <strong>This is a hypothesis, not a forecast</strong>
+    Across 127,000 experiments, 12% produced a statistically significant improvement on the primary metric; a healthy programme win rate is 10-30%. Winning tests also tend to overstate
+    their true effect, so a gross projection can fall by roughly half once false
+    winners and magnitude error are corrected for. Treat the range above as the
+    prize if the change works, not as expected revenue.
+    
+  </div>
+</div>
+  
+<div class="section">
+  <div class="eyebrow-label">Prioritisation</div>
+  <h2 class="section-title">PXL score: 5 of 10</h2>
+  <p class="section-intro">PXL replaces subjective 1–10 scoring with binary questions,
+    so the ranking can be checked rather than trusted. The four evidence questions
+    score zero for anything found by inspection alone — that is the intended signal,
+    not a defect.</p>
+  <table class="dtable">
+    <thead><tr><th>Question</th><th class="num">Weight</th><th class="num">Answer</th><th class="num">Points</th></tr></thead>
+    <tbody><tr><td>Is the change above the fold?</td><td class="num">1</td><td class="num yes">Yes</td><td class="num">1</td></tr><tr><td>Is the change noticeable in under 5 seconds?</td><td class="num">2</td><td class="num yes">Yes</td><td class="num">2</td></tr><tr><td>Does it add or remove an element?</td><td class="num">1</td><td class="num yes">Yes</td><td class="num">1</td></tr><tr><td>Does it run on a high-traffic page?</td><td class="num">1</td><td class="num yes">Yes</td><td class="num">1</td></tr><tr><td>Discovered via user testing?</td><td class="num">1</td><td class="num no">No</td><td class="num">0</td></tr><tr><td>Discovered via qualitative feedback (survey, support)?</td><td class="num">1</td><td class="num no">No</td><td class="num">0</td></tr><tr><td>Supported by heatmaps or session recordings?</td><td class="num">1</td><td class="num no">No</td><td class="num">0</td></tr><tr><td>Found via digital analytics or real-user field data?</td><td class="num">1</td><td class="num no">No</td><td class="num">0</td></tr><tr><td>Verified by direct technical measurement? <span class="badge badge-effort">extension</span></td><td class="num">1</td><td class="num no">No</td><td class="num">0</td></tr></tbody>
+  </table>
+</div>
+  
+<div class="section">
+  <div class="eyebrow-label">Implementation</div>
+  <h2 class="section-title">Developer specification</h2>
+  <p class="section-intro">Written so an engineer can build it without a follow-up
+    meeting, and a QA engineer can verify it.</p>
+  <dl class="spec">
+    <dt>Surface</dt><dd>Homepage</dd>
+    <dt>Problem</dt><dd>The insurance benefits checker asks for first name, last name, date of birth, and zip code before any value exchange, creating unnecessary friction for a cold visitor.</dd>
+    <dt>Current state</dt><dd>h1: A fresh dose of nostalgia; cta: Check my benefits; notes: The form is presented as a primary CTA on the homepage, but requires personal information upfront without explaining the benefit or providing a trust layer.</dd>
+    <dt>Proposed change</dt><dd>h1: A fresh dose of nostalgia; cta: Check my benefits; notes: Reduce to just zip code and insurance provider (if needed) or add a trust layer (e.g., &#x27;We&#x27;ll only use this to check your coverage&#x27;) and explain the value before asking for personal details.</dd>
+    <dt>Success metric</dt><dd>Conversion rate on the affected step</dd>
+    <dt>Tracking</dt><dd class="mono">Instrument the affected control before launch;
+      confirm the event fires in both variants prior to opening traffic.</dd>
+    <dt>QA</dt><dd>Verify on Chrome, Safari and Firefox, at 375px and 1280px widths,
+      and confirm keyboard and screen-reader access to any changed control.</dd>
+    <dt>Effort</dt><dd>Medium —
+      2-5 days</dd>
+    <dt>Test duration</dt><dd>17 days to detect a 5.0% lift, and at least one full business cycle</dd>
+  </dl>
+</div>
+  
+<div class="section">
+  <div class="eyebrow-label">Experiment design</div>
+  <h2 class="section-title">How to prove it worked</h2>
+  <p class="section-intro">Two-proportion z-test at 95% significance and 80% power.
+    Halving the minimum detectable effect roughly quadruples the sample required, which is why the conservative figure is so much larger.</p>
+  <table class="dtable"><tbody>
+    <tr><td>Baseline conversion rate</td><td class="num">2.4%</td></tr>
+    <tr><td>Significance / power</td><td class="num">95% / 80%</td></tr>
+    <tr><td>Sample per variant to detect a 5.0% lift</td><td class="num">261,572</td></tr>
+    <tr><td>Sample per variant to detect a 1.0% lift</td><td class="num">6,414,884</td></tr><tr><td>Time to detect a 5.0% lift</td><td class="num">17 days</td></tr><tr><td>Time to detect a 1.0% lift</td><td class="num">not feasible (406 days at current traffic)</td></tr></tbody></table>
+  
+  <p class="section-intro" style="margin-top:16px">Run until the calculated sample is reached AND at least one full business cycle has elapsed; 2-4 weeks is the practical norm.</p>
+</div>
+  <div class="pager"><a href="finding_4_rotating_hero_without_clear_primary_cta.html">← Rotating hero without clear primary CTA</a><a href="finding_6_email_capture_without_incentive.html">Email capture without incentive →</a></div>
+</div>
+<div class="footer">
+  Prepared by <strong>The CRO Panel</strong> · <a href="mailto:panel@example.com">panel@example.com</a> · <a href="methodology.html">Method &amp; confidence</a>
+</div>
+</body>
+</html>
